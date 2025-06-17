@@ -12,7 +12,7 @@ public class ContaTerminal {
         scanner.nextLine();
         System.out.println("--Por favor, digite o Nome Completo---------------");
         String nome = scanner.nextLine();
-        System.out.println("--Por favor, digite o valor do primeior deposito--");
+        System.out.println("--Por favor, digite o valor do primeiro deposito--");
         BigDecimal saldo = scanner.nextBigDecimal();
         
         System.out.printf("Olá %s, obrigado por criar uma conta em nosso banco, sua agência é %s, conta %s e seu saldo de R$%s já está disponível para saque", nome, agencia, conta, saldo);
